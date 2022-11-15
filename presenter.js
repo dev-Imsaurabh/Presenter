@@ -89,7 +89,7 @@ function scrollTimer(divId,time,Pname,color){
     id = setInterval(() => {
         i++
         if(i==time){
-          document.querySelector(`${divId}`).scrollIntoView({"behavior":"smooth","block":"center"})
+          document.querySelector(`#${divId}`).scrollIntoView({"behavior":"smooth","block":"center"})
           name.innerText=Pname
           runningTimer.style=color=color
           clearInterval(id)
@@ -125,7 +125,7 @@ function clickMe(divId,time,Pname,color){
     id = setInterval(() => {
         i++
         if(i==time){
-          document.querySelector(`${divId}`).click()
+          document.querySelector(`#${divId}`).click()
           name.innerText=Pname
           runningTimer.style=color=color
           clearInterval(id)
