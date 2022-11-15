@@ -19,7 +19,7 @@ function setupLinks() {
   animScript.setAttribute("src", "https://cdn.lordicon.com/pzdvqjsp.js");
 
   css.setAttribute("rel", "stylesheet");
-  css.setAttribute("href", "presenter.css");
+  css.setAttribute("href", "/Presenter/presenter.css");
 
   head.appendChild(css);
   head.appendChild(animScript)
