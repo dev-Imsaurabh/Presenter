@@ -88,8 +88,8 @@ class Presenter {
   }
 
   //fill value in input-box
-  fill(ivId,time,text){
-    fillInput(ivId,time,text)
+  fill(divId,time,text){
+    fillInput(divId,time,text)
   }
  
 
@@ -107,7 +107,7 @@ function scrollTimer(divId,time,Pname,color){
         if(i==time){
           document.querySelector(`#${divId}`).scrollIntoView({"behavior":"smooth","block":"center"})
           name.innerText=Pname
-          runningTimer.style=color=color
+          runningTimer.style.color=color
           clearInterval(id)
         }
 
