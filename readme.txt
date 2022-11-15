@@ -23,7 +23,7 @@ Step -5 Ready to use :)
 **** .scrollPage(<divId(without #) in string>,<time in sec(number)>,<personName in string>,<color-name in string>);
 
 // click on element on specific time
-**** .clickit(<divId(without #) in string>,<time in sec(number)>,<personName in string>,<color-name in string>);
+**** .clickit(<divId(without #) in string>,<time in sec(number)>);
 
 // Change the page on specific time
 **** .changePage(<time in sec(number)>,<FILE-PATH in string>)
@@ -36,6 +36,9 @@ Step -5 Ready to use :)
 
 //Change only color on specific time
 **** .color(<color-name in string>,<time in sec(number)>);
+
+//Fill the value in Input box
+**** .fill(<divId(without #) in string>,<time in sec(number)>,<value in string>)
 
 
 ***************************************************************************************************************************

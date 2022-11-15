@@ -87,6 +87,10 @@ class Presenter {
     changeColor(color,time)
   }
 
+  //fill value in input-box
+  fill(ivId,time,text){
+    fillInput(ivId,time,text)
+  }
  
 
 
@@ -129,7 +133,7 @@ function showAlert(msg,time){
 }
 
 
-function clickMe(divId,time,Pname,color){
+function clickMe(divId,time){
     let name = document.querySelector("#name");
     let runningTimer = document.querySelector("#timer>h3");
     let i=0
@@ -138,8 +142,6 @@ function clickMe(divId,time,Pname,color){
         i++
         if(i==time){
           document.querySelector(`#${divId}`).click()
-          name.innerText=Pname
-          runningTimer.style=color=color
           clearInterval(id)
         }
 
@@ -211,6 +213,24 @@ function changeColor(color,time){
         
     }, 1000);
        
+
+
+}
+
+function fillInput(divId,time,text){
+
+  let name = document.querySelector("#name");
+  let runningTimer = document.querySelector("#timer>h3");
+  let i=0
+  let id; 
+  id = setInterval(() => {
+      i++
+      if(i==time){
+        document.querySelector(`#${divId}`).value=text
+        clearInterval(id)
+      }
+
+  }, 1000);
 
 
 }
