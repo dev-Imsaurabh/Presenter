@@ -66,8 +66,8 @@ class Presenter {
   }
 
   //click on element
-  clickit(divId,time,Pname,color){
-    clickMe(divId,time,Pname,color)
+  clickit(divId,time){
+    clickMe(divId,time)
 
 
   }
