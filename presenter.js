@@ -1,3 +1,4 @@
+//Design of the Timer
 function TimerDesign() {
   return `<p><span><lord-icon
     src="https://cdn.lordicon.com/mrjuyheh.json"
@@ -11,7 +12,7 @@ function TimerDesign() {
 
 
 
-
+//Pushing css and script
 function setupLinks() {
   let head = document.querySelector("head");
   let css = document.createElement("link");
@@ -25,6 +26,8 @@ function setupLinks() {
   head.appendChild(animScript)
 }
 
+
+//Appending Presenter full body
 function setupDesign() {
   let timerBody = document.createElement("div");
   timerBody.setAttribute("id", "timer");
@@ -34,12 +37,13 @@ function setupDesign() {
 }
  
 
-
+//Presenter classs
 class Presenter {
   constructor(personName) {
     this.personName=personName
   }
 
+  //Ready to fire
   initialize() {
 
     setupDesign();
@@ -50,27 +54,35 @@ class Presenter {
 
     
   }
+  //Scroll the page
   scrollPage(divId,time,Pname,color){
     scrollTimer(divId,time,Pname,color)
     
   }
 
+  //alert the user 
   alertUser(msg,time){
     showAlert(msg,time)
   }
 
+  //click on element
   clickit(divId,time,Pname,color){
     clickMe(divId,time,Pname,color)
 
 
   }
+  //change the page
   changePage(time,pageName){
     change(time,pageName)
 
   }
+
+  //change the person name 
   name(name,time){
     changName(name,time)
   }
+
+  //change the color of timer
   color(color,time){
     changeColor(color,time)
   }
