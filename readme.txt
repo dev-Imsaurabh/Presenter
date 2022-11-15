@@ -3,7 +3,7 @@
 Presenter helps you to automate you website without writing extra code to your code base. Easy to integrate and has various method provided to make control over page.
 Its helps you to present your website on video calls in group. (Eg. Zoom meeting);
 Just give the proper instructions and time to Presenter and rest of the things presenter will do its own.
-More methods and updats coming soon !
+More methods and updates coming soon !
 
 
 *************************************** How to use Presenter ? *********************************************************
