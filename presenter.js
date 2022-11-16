@@ -4,7 +4,7 @@ function TimerDesign() {
     src="https://cdn.lordicon.com/mrjuyheh.json"
     trigger="loop"
     style="width:25px;height:25px" id="eye">
-</lord-icon></span><br>JARVIS<p>
+</lord-icon></span><br>ᑭᖇEᔕEᑎTEᖇ<p>
 <h3>1</h3>
 <p id="name">Name</p>`;
 }
